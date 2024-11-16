@@ -30,7 +30,7 @@ const checkOverdue = () =>
         if (overdueAmount > 0) {
           const msg = {
             to: user.email,
-            from: "paritoshdev26@gmail.com",
+            from: "piyushkr.seek@gmail.com",
             subject: `${overdueAmount} Tasks Overdue | TaskApp`,
             text: `${user.name}, you have ${overdueAmount} tasks that are due for today. Make sure you get them done. ${taskList}`
           };
